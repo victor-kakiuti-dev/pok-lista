@@ -1,0 +1,37 @@
+# Ignorar arquivos de configuração sensíveis
+.env
+config.py
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos CSV gerados
+*.csv
+
+# Ignorar arquivos compilados do Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar pastas de virtual environment
+venv/
+env/
+__pycache__
+
+# Ignorar backups do editor de código
+*~
+*.bak
+*.swp
+
+# Ignorar arquivos do sistema operacional (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignorar diretórios do Jupyter Notebook (se estiver usando)
+.ipynb_checkpoints/
+
+# Ignorar qualquer outro arquivo específico do projeto
+*.tmp
+
+# Ignorar .vscode
+.vscode
